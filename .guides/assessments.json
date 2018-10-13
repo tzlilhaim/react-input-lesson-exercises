@@ -40,7 +40,7 @@
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
    "instructions": "Create the following elements in your HTML:*   Input - give it a class of **name-input**\n*   Age - give it a class of **age-input**\n*   A button\n\nWhen the button is clicked, it should alert \"Welcome to the club, <name>\", or \"You are too young to enter\", depending on whether the inputted age is greater than 16.\n\nMake sure that in the button's method you're accessing the name and age through _state_",
-   "command": "node .test/test-runner ex-1",
+   "command": "node .guides/secure/.test/test-runner ex-1",
    "learningObjectives": "",
    "points": 1,
    "timeoutSeconds": 40
@@ -58,7 +58,7 @@
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
    "instructions": "Create the following elements:\n\n*   Input for a name - give it a class of **name-input**\n*   A dropdown list of fruit [(select) menu](https://www.w3schools.com/tags/tag_select.asp) - give it a class of **option-menu** and create at least two fruit options. It should update the **fruit** state property when you change the selection of the menu.\n\nWhen the user selects an item from the drop-down, you should console log \"<name> selected <fruit>\". Please pay attention to print exactly the string as it appears here.",
-   "command": "node .test/test-runner ex-2",
+   "command": "node .guides/secure/.test/test-runner ex-2",
    "learningObjectives": "",
    "points": 1,
    "timeoutSeconds": 40
