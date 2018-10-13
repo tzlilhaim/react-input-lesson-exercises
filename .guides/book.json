@@ -1,0 +1,23 @@
+{
+ "name": "React Input",
+ "children": [
+  {
+   "title": "React Input",
+   "id": "44dede56-31d2-b787-035e-38b7578de5a1",
+   "pageId": "44dede56-31d2-b787-035e-38b7578de5a1",
+   "type": "page"
+  },
+  {
+   "id": "cf8c5e7f-1fa9-fc0d-97a8-0addb77232b7",
+   "title": "Quiz",
+   "pageId": "f311f7ee-0dd5-e771-64dd-e39cd460b872",
+   "type": "page"
+  },
+  {
+   "title": "Exercises",
+   "id": "5eedfa5e-c500-c618-e1e1-948ccd91f230",
+   "pageId": "5eedfa5e-c500-c618-e1e1-948ccd91f230",
+   "type": "page"
+  }
+ ]
+}

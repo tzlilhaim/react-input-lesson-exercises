@@ -1,0 +1,223 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3617097626",
+  "source": {
+   "name": "Question 1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is 1+1?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "261c2d93-e65b-137a-f485-d5e3513d3b8d",
+     "correct": true,
+     "answer": "2"
+    },
+    {
+     "_id": "2275ac49-ba4d-97bc-a360-9f62de75c40b",
+     "correct": false,
+     "answer": "3"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4050966093",
+  "source": {
+   "name": "Exercise 1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create the following elements in your HTML:*   Input - give it a class of **name-input**\n*   Age - give it a class of **age-input**\n*   A button\n\nWhen the button is clicked, it should alert \"Welcome to the club, <name>\", or \"You are too young to enter\", depending on whether the inputted age is greater than 16.\n\nMake sure that in the button's method you're accessing the name and age through _state_",
+   "command": "node .test/test-runner ex-1",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1232528926",
+  "source": {
+   "name": "Exercise 2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create the following elements:\n\n*   Input for a name - give it a class of **name-input**\n*   A dropdown list of fruit [(select) menu](https://www.w3schools.com/tags/tag_select.asp) - give it a class of **option-menu** and create at least two fruit options. It should update the **fruit** state property when you change the selection of the menu.\n\nWhen the user selects an item from the drop-down, you should console log \"<name> selected <fruit>\". Please pay attention to print exactly the string as it appears here.",
+   "command": "node .test/test-runner ex-2",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1200943527",
+  "source": {
+   "name": "Question #1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "When dealing with input...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "9eb7e2dc-7168-2a99-2601-5eeac87453d3",
+     "correct": false,
+     "answer": "The data still flows down: the value of the input still reflects state"
+    },
+    {
+     "_id": "9341ba41-0288-e217-a1be-0f65ee37042e",
+     "correct": false,
+     "answer": "The data flows up: the value in state is updated whenever an update happens"
+    },
+    {
+     "_id": "d6e30885-f4f1-97ba-8596-16def0665c19",
+     "correct": false,
+     "answer": "We should use jQuery with simple DOM traversal to extract our data"
+    },
+    {
+     "_id": "bc47cbd2-d597-a024-81a0-497f8f03b2e8",
+     "correct": true,
+     "answer": "We have two-way binding of data between state and input"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-435621281",
+  "source": {
+   "name": "Question #2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "When updating state using the input’s onChange...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "9700d233-d0c7-4f5f-8b16-a27902bfe15b",
+     "correct": false,
+     "answer": "It’s ok to update setState directly, because onChange is called every time we press a key, and setState is asynchronous so we want to guarantee the input is correct"
+    },
+    {
+     "_id": "e25674e4-5090-4d2a-21d5-65d10335501a",
+     "correct": false,
+     "answer": "We should still use setState, knowing that on the last key-press everything will be reset accordingly despite the fact that setState is asynchronous"
+    },
+    {
+     "_id": "9f92a077-197a-c041-1a8e-f2bd657c1a28",
+     "correct": true,
+     "answer": "We should always use setState, period"
+    },
+    {
+     "_id": "275aa570-687c-56d9-ed1f-6f2195041282",
+     "correct": false,
+     "answer": "It’s ok to update setState directly, because nothing is dependant on this data except for the input itself"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3998677921",
+  "source": {
+   "name": "Question #3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Instead of creating a new method for each onChange we can",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "4e7cec86-ad8a-e2a0-3775-6aa59881a18d",
+     "correct": false,
+     "answer": "Do nothing, every input should be unique - we should have a separate method for each onChange"
+    },
+    {
+     "_id": "363a5da1-a53e-a7ef-e031-ef4153a3577e",
+     "correct": true,
+     "answer": "Use computed property names"
+    },
+    {
+     "_id": "3b220f35-bcaa-e046-7051-eb2940f58489",
+     "correct": false,
+     "answer": "Have a separate (non-React) class that handles our input changes"
+    },
+    {
+     "_id": "305ab093-cdf7-88e4-8acc-c5e68fbe4f39",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2754505364",
+  "source": {
+   "name": "Question #4",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "When we bind an input’s value attribute to a value in state...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "9861244b-fd5d-85d6-4e5c-c0dfb510ae82",
+     "correct": false,
+     "answer": "We must give it an onChange attribute, else it will never change"
+    },
+    {
+     "_id": "45c789dd-30f6-1a90-80e0-7b64e4e80566",
+     "correct": false,
+     "answer": "We must verify that the value exists in state\n"
+    },
+    {
+     "_id": "36ac138f-8df1-6927-3c83-bd614d385d7f",
+     "correct": false,
+     "answer": "Neither a nor b"
+    },
+    {
+     "_id": "348e13ef-49e4-0635-e191-9bf551d18b79",
+     "correct": true,
+     "answer": "Both a and b"
+    }
+   ]
+  }
+ }
+]
