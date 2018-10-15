@@ -13,11 +13,16 @@ it('Application should render without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('Fruit state property should be updated when changing selection in the dropdown', () => {
+it('There should be a `fruit` property in state that is updated when changing selection in the dropdown with the class `option-menu`', () => {
     const wrapper = mount(<App />);
     // get the last fruit option
     let options = wrapper.find('option'); 
     let optionValue = options.at(1).prop('value');
-    wrapper.find('.option-menu').simulate('change', {target: {value: optionValue}});
+    
+    let select = wrapper.find('.option-menu')
+    
+    select.instance().value = optionValue
+    select.simulate('change')
+
     expect(wrapper.state('fruit')).toEqual(optionValue);
 });
