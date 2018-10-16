@@ -17,12 +17,11 @@ it('There should be a `fruit` property in state that is updated when changing se
     const wrapper = mount(<App />);
     // get the last fruit option
     let options = wrapper.find('option'); 
-    let optionValue = options.at(1).prop('value');
+    let optionValue = options.at(1).prop('value') || options.at(1).text();
     
     let select = wrapper.find('.option-menu')
     
     select.instance().value = optionValue
     select.simulate('change')
-
-    expect(wrapper.state('fruit')).toEqual(optionValue);
+    expect(wrapper.state("fruit")).toEqual(optionValue);
 });
