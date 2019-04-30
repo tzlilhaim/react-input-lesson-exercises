@@ -13,8 +13,8 @@ class Exercise1 extends Component {
     render() {
         return (
             <div>
-                <input id="i1" />
-                <input id="i2" />
+                <input id="name-input" />
+                <input id="age-input" />
                 <button>Go to Bar</button>
             </div>
         );
