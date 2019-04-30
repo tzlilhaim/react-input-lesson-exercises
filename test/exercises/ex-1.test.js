@@ -4,6 +4,7 @@ import App from '../../src/App';
 import { mount, render, shallow, configure} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { wrap } from 'module';
+import Exercise1 from '../../src/components/Exercise1';
 
 configure({ adapter: new Adapter() });
 
@@ -14,8 +15,8 @@ it('Application should render without crashing', () => {
 });
 
 it('The `name` property in state should update when typing in the `.name-input` input', () => {
-    const wrapper = mount(<App />);
-    const input = wrapper.find('.name-input')
+    const wrapper = mount(<Exercise1 />);
+    const input = wrapper.find('input')
     const value = "SOMENAME"
 
     input.instance().value = value
