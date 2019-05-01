@@ -7,7 +7,7 @@ import App from '../../src/App';
 
 configure({ adapter: new Adapter() });
 
-describe("spotcheck1", () => {
+describe("ex-1", () => {
     it('Application should render without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(App, div);
