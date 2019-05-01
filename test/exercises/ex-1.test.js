@@ -8,6 +8,7 @@ import App from '../../src/App';
 configure({ adapter: new Adapter() });
 
 describe("ex-1", () => {
+    
     it('Application should render without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(App, div);
